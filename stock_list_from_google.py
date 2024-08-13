@@ -59,7 +59,6 @@ def data_stocks_not_in_stocks_of_interest(given_list: list, stock_list_of_intere
 def main():
 
     driver.get("https://www.google.com/finance")
-    title = driver.title
     driver.implicitly_wait(5)
 
     given_list = ["NFLX","MSFT", "TSLA"]
